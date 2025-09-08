@@ -15,14 +15,6 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload --reload-exclude ".venv/*"
 
-
-📂 Project Structure
-back-end/
-│── main.py          # Entry point for FastAPI
-│── requirements.txt # Dependencies
-│── .venv/           # Virtual environment (excluded from GitHub)
-│── README.md        # Project documentation
-
 🛠 Tech Stack
 	•	Python
 	•	FastAPI
